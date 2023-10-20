@@ -1,0 +1,14 @@
+//mixins
+@mixin flex($direction: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+  
+  // Media query
+  @mixin media-breakpoint-up($breakpoint, $direction: min-width) {
+    @media screen and ($direction: $breakpoint) {
+      @content;
+    }
+  }

@@ -1,0 +1,17 @@
+@import '../../index.scss';
+.header{
+    margin: 25px 90px;
+    @include flex($justify: space-between);
+
+    .logo{
+
+    }
+
+    .navbar{
+        &-items{
+            @include flex(row,space-between,center);
+            gap: 37px;
+        }
+        
+    }
+}

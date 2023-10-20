@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'poppins';
+    src: local('poppins'), url(../../../../src/fonts/Poppins-Regular.ttf) format('truetype');
+    src: local('poppins'), url(../../fonts/Poppins-Medium.ttf) format('truetype');
+    src: local('poppins'), url(../../fonts/Poppins-SemiBold.ttf) format('truetype');
+    src: local('poppins'), url(../../fonts/Poppins-Bold.ttf) format('truetype');
+}
+
+$Darkest: #0C121C;
+$Dark:#1E293B;
+$Mid:#B8BFC6;
+$Light:#D6DEE7;
+$Lightest:#F6F3F3;
+
+$fontfamily: 'poppins';
+$fontsizexxl: 55px;
+$fontsizexl: 35px;
+$fontsizevl: 18px;
+$fontsizel: 18px;
+$fontsizesm:14px;
