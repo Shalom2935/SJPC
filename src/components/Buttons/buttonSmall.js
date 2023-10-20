@@ -1,7 +1,7 @@
-import './Buttons.scss';
+import './Buttonsm.scss';
 function ButtonSmall(){
     return(
-        <div className="button">
+        <div className="buttonsm">
             <button>REJOINDRE</button>
         </div>
     );

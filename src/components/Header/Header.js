@@ -12,7 +12,6 @@ function Header() {
                 <li>CONTACT</li>
                 <li><ButtonSmall /></li>
             </ul>
-            
         </div>
     </div>
   );

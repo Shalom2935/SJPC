@@ -1,6 +1,11 @@
 @import '../../index.scss';
 .header{
     margin: 25px 90px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    min-width:0vw;
+    z-index: 99;
     @include flex($justify: space-between);
 
     .logo{
@@ -8,10 +13,20 @@
     }
 
     .navbar{
-        &-items{
-            @include flex(row,space-between,center);
-            gap: 37px;
+      font-size: $fontsizesm;
+      font-weight: $regular;
+      color:transparentize($Lightest,0.4);
+      &-items{
+        @include flex(row,space-between,center);
+        gap: 37px;
+
+        &:hover{
+          cursor: pointer;
         }
+        &:current{
+          color: $Lightest;
+        }
+      }
         
     }
 }
