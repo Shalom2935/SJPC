@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.scss';
 import './components/Header/Header.js';
 import Header from './components/Header/Header.js';
@@ -23,31 +24,33 @@ function App() {
       <div className='missions'>
         <h1>Nos Missions</h1>
         <div className='missions-list'>
-        <div className='missions-list--solidarite'>
-          <div className='handshaken-icon'></div>
-          <h2>Solidarité</h2>
-          <p>
-          Promouvoir la solidarité entre les différentes générations d’étudiants formés à Saint Jérôme Polytechnique et entre les 
-          étudiants et leurs enseignants
-          </p>
-        </div>
-        <div className='missions-list--integration'>
-          <div className='objective-icon'></div>
-          <h2>Intégration</h2>
-          <p>
-          Faciliter l’intégration socio-professionnelle 
-          des Ingénieurs et cadres de SJP au
-          Cameroun et à l’étranger à travers
-          des réseaux d’opportunités
-          </p>
-        </div>
-        <div className='missions-list--emergency'>
-          <div className='emergency-icon'></div>
-          <h2>Emergence économique</h2>
-          <p>
-          Participer de manière significative au developpement et à l’émergence économique du Cameroun
-          </p>
-        </div>
+          <div className='missions-list--solidarite'>
+            <div className='handshaken-icon'></div>
+            <h2>Solidarité</h2>
+            <p>
+            Promouvoir la solidarité entre les différentes générations d’étudiants formés à Saint Jérôme Polytechnique et entre les 
+            étudiants et leurs enseignants
+            </p>
+          </div>
+          <div className='missions-list--integration'>
+            <div className='objective-icon'></div>
+            <h2>Intégration</h2>
+            <p>
+            Faciliter l’intégration socio-professionnelle 
+            des Ingénieurs et cadres de SJP au
+            Cameroun et à l’étranger à travers
+            des réseaux d’opportunités
+            </p>
+          </div>
+          <div className='missions-list--emergency'>
+            <div className='emergency-icon'>
+            {/* <img src={process.env.PUBLIC_URL + 'icons/handshake.svg'} alt="logo" /> */}
+            </div>
+            <h2>Emergence économique</h2>
+            <p>
+            Participer de manière significative au developpement et à l’émergence économique du Cameroun
+            </p>
+          </div>
         </div>
       </div>
     </div>

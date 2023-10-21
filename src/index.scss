@@ -64,5 +64,40 @@
 
   h1{
     font-weight: $bold;
+    margin-bottom:7px;
+  }
+
+  &-list {
+    h2{
+      font-size: $fontsizevl;
+    }
+    p{
+      color: #B8BFC6;
+      font-family: Rubik;
+      font-size: $fontsizel;
+      max-width: 370px;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+    }
+    @include flex(row,space-between,baseline);
+    & > div > div {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 15px;
+    }
+    div .handshaken-icon{
+      background: url(../public/assets/icons/handshake.svg);
+    }
+    div .objective-icon{
+      background: url(../public/assets/icons/bullseye-arrow.svg);
+    }
+    div .emergency-icon{
+      background: url(../public/assets/icons/chat-arrow-grow.svg);
+    }
+
+    & > div{
+      @include flex(column,space-between,left,15px);
+      padding-top: 46px;
+    }
   }
 }
