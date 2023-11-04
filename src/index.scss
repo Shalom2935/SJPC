@@ -6,6 +6,8 @@
 
 .hero{
   background-image: url(../public/assets/images/hero.png);
+  background-repeat: no-repeat;
+  background-size:cover;
   width: 100%;
   height:752px;
   padding-top: 226px;
@@ -100,4 +102,67 @@
       padding-top: 46px;
     }
   }
+}
+
+.newsletter{
+  background-image: url(../public/assets/images/newsletter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 72px;
+  padding-bottom: 72px;
+
+  .wrapper{
+    background-color: transparentize(#d9d9d9,0.61);
+    width: fit-content;
+    min-height: 287px;
+    margin:auto;
+    @include flex(column,center,center,29px);
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+
+    form{
+      width: 100%;
+      @include flex($justify:space-between,$gap:18px);
+      input{
+        width:100%;
+        height: 38px;
+        border-radius: 50px;
+        border: none;
+        padding: 0px 19px;
+        
+        &:focus{
+          outline: 2px solid $Darkest;
+        }
+      }
+      button{
+        display: flex;
+        flex-shrink: 0;
+        width: 170px;
+        height: 38px;
+        padding: 0px 19px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        border: none;
+        background: $Darkest;
+        color: $Lightest;
+        font-weight: $semi-bold;
+        font-size: $fontsizel;
+    
+        &:hover{
+            display: inline-flex;
+            border-radius: 50px;
+            background: $Light;
+            color: $Darkest;
+            
+            
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+      }
+    }
+  }
+  
 }

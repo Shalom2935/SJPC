@@ -2,6 +2,8 @@ import React from 'react';
 import './index.scss';
 import './components/Header/Header.js';
 import Header from './components/Header/Header.js';
+import './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 import ButtonLarge from './components/Buttons/buttonLarge';
 
 
@@ -53,6 +55,16 @@ function App() {
           </div>
         </div>
       </div>
+      <div className='newsletter'>
+        <div className='wrapper'>
+          <h2>SOUSCRIRE A NOTRE NEWSLETTER POUR RESTER INFORME DE NOS ACTIVITES</h2>
+          <form>
+            <input type="text" placeholder='xyz@gmail.com'/>
+            <button>SOUSCRIRE</button>
+          </form>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
