@@ -20,11 +20,17 @@
         @include flex(row,space-between,center);
         gap: 37px;
 
-        &:hover{
-          cursor: pointer;
-        }
-        &:current{
-          color: $Lightest;
+        li{
+          &:hover{
+            cursor: pointer;
+          }
+          
+          Link{
+            &:active{
+              color: black;
+            }
+          }
+
         }
       }
         

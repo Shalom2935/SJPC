@@ -115,6 +115,7 @@
     background-color: transparentize(#d9d9d9,0.61);
     width: fit-content;
     min-height: 287px;
+    border-radius:15px;
     margin:auto;
     @include flex(column,center,center,29px);
     padding-left: 10vw;

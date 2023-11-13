@@ -1,0 +1,26 @@
+@import '../../index.scss';
+
+body{
+    background-color: $Dark;
+    padding: 25px 100px;
+    color: white;
+
+    main{
+        header{
+            display: flex;
+            align-items: center;
+            width: 100%;
+
+            .email{
+                justify-self: flex-start;
+                flex: 1;
+            }
+            .logo{
+                justify-self: self-end;
+                font-size: $fontsizexl;
+                font-weight: $semi-bold;
+                flex: 1;
+            }
+        }
+    }
+}

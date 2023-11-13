@@ -1,0 +1,29 @@
+@import '../../index.scss';
+
+footer{
+    background-color: $Dark;
+    color: white;
+    padding: 60px 90px 100px 90px;
+    display:flex;
+    justify-content: space-between;
+    align-items: last baseline;
+
+    .network{
+        @include flex(column,end,flex-start,21px);
+
+        .social-network{
+            @include flex(row,31px);
+        }
+    }
+    .contact{
+        h4{
+            margin-bottom: 34px;
+        }
+        .whatsapp, .email{
+            @include flex($justify:start,$gap:20px);
+        }
+        .whatsapp{
+            margin-bottom: 20px;
+        }
+    }
+}
