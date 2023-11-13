@@ -25,7 +25,7 @@ function Header() {
             <ul className='navbar-items'>
                 <li>ACCUEIL</li>
                 <li><StyledLink to='/Contact'>CONTACT</StyledLink></li>
-                <li><ButtonSmall /></li>
+                <li><Link to='/Inscription'><ButtonSmall /></Link></li>
             </ul>
         </div>
     </div>
