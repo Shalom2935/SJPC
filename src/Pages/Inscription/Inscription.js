@@ -3,7 +3,7 @@ import React from 'react'
 function Inscription() {
   return (
     <div>
-        <form action=''>
+        <form action='' method=''>
             <label htmlFor="Nom">Nom </label>
             <input type='text' name='Nom'/>
             <label htmlFor="Prenom">Prenom</label>
