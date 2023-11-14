@@ -14,7 +14,7 @@ function Inscription() {
             <input type='text' name='Ville'/>
             <label htmlFor="Telephone">Telephone</label>
             <input type='text' name='Telephone'/>
-            <input type='submit' value='s'inscrire'/>
+            <input type='submit' name='submit' value="subscribe"/>
 
         </form>
     </div>
