@@ -12,6 +12,9 @@ function Inscription() {
             <input type='Date' name='Naissance'/>
             <label htmlFor="Ville">Ville</label>
             <input type='text' name='Ville'/>
+            <label htmlFor="Telephone">Telephone</label>
+            <input type='text' name='Telephone'/>
+            <input type='submit' value='s'inscrire'/>
 
         </form>
     </div>
