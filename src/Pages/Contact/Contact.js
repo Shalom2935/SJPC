@@ -12,7 +12,8 @@ function Contact() {
     //   //   <li><ButtonSmall /></li>
     //   {/* </ul> */}
     // </div>
-    <main>
+    <div className="contact-wrapper">
+      <main>
       <header>
         <div className="email">sjpcommunity1st@gmail.com</div>
         <div className="logo">Logo</div>
@@ -60,6 +61,8 @@ function Contact() {
       </div>
       
     </main>
+    </div>
+    
   )
 }
 
