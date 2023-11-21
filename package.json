@@ -11,7 +11,6 @@
     "react-router-dom": "^6.18.0",
     "react-scripts": "^5.0.1",
     "styled-components": "^6.1.1",
-    "twitter": "file:./public/assets/icons/twitter.svg",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

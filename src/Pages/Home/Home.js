@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../../index.scss';
 import '../../components/Header/Header.js';
 import Header from '../../components/Header/Header.js';
 import '../../components/Footer/Footer';
 import Footer from '../../components/Footer/Footer';
-import ButtonLarge from '../../components/Buttons/buttonLarge';
+import Button from '../../components/Buttons/button';
 
 
 function Home() {
@@ -13,14 +14,18 @@ function Home() {
     <Header />
       <div className='hero'>
         <div className='hero-text'>
+          <h1 className='hero-text--title'>St Jerome <br></br>Polytechnic Community</h1>
           <h2 className='hero-text--slogan'>
             JE SUIS CE QUE JE SUIS GRACE A CE QUE NOUS SOMMES TOUS
           </h2>
-          <h1 className='hero-text--title'>St Jerome <br></br>Polytechnic Community</h1>
           <p>
           SJP Community est une association à but non lucratif, qui réunit les étudiants de Saint Jérôme polytechnique dans le but de les accompagner tout au long de leur formation et faciliter leur insertion dans le milieu professionnel
           </p>
-          <ButtonLarge />
+          <Link to = '/Inscription'>
+            <Button 
+              text = {'REJOINDRE MAINTENANT'}
+            />
+          </Link>
         </div>
       </div>
       <div className='missions'>
@@ -60,7 +65,7 @@ function Home() {
           <h2>SOUSCRIRE A NOTRE NEWSLETTER POUR RESTER INFORME DE NOS ACTIVITES</h2>
           <form>
             <input type="text" placeholder='xyz@gmail.com'/>
-            <button>SOUSCRIRE</button>
+            <Button text = {'SOUSCRIRE'} colors = {{background: '#0C121C',text: '#F6F3F3'}}/>
           </form>
         </div>
       </div>
