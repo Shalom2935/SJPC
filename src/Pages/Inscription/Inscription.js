@@ -1,9 +1,11 @@
 import React from 'react'
 
+
+
 function Inscription() {
     return (
         <div>
-            <form action='db_connection.js' method='POST'>
+            <form action='' method='POST'>
                 <label htmlFor="Nom">Nom </label>
                 <input type='text' id='nom' name='Nom' />
                 <label htmlFor="Prenom">Prenom</label>
