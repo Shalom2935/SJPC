@@ -12,27 +12,5 @@
 
     }
 
-    .navbar{
-      font-size: $fontsizesm;
-      font-weight: $regular;
-      color:transparentize($Lightest,0.4);
-      &-items{
-        @include flex(row,space-between,center);
-        gap: 37px;
-
-        li{
-          &:hover{
-            cursor: pointer;
-          }
-          
-          Link{
-            &:active{
-              color: black;
-            }
-          }
-
-        }
-      }
-        
-    }
+   
 }

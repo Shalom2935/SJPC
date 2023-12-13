@@ -1,0 +1,14 @@
+@import '../../index.scss';
+
+button{
+
+    $color: currentColork;
+    @include flex($gap:10px);
+    width: auto;
+    padding: 0px 19px;
+    border-radius: 50px;
+    border: none;
+    font-weight: $semi-bold;
+    cursor: pointer;
+    
+}

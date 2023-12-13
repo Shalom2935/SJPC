@@ -13,3 +13,25 @@
       @content;
     }
   }
+
+//button style
+// @mixin buttonhover($color){
+
+//   @debug $color;
+
+//   @if ($color = '#0C121C'){
+
+//     &:hover{
+//       color: $Lightest !important;
+//       background-color: $Darkest !important;
+//     }
+//   }
+
+//   @else{
+//     &:hover{
+//       color: $Darkest !important;
+//       background-color: $Lightest !important;
+//     }
+//   }
+//   transition: all 0.2s ease;
+// }

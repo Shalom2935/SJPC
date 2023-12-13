@@ -32,6 +32,7 @@
     @include flex(column,space-between,center,20);
 
     &--slogan{
+      order: -1;
       font-size: $fontsizel;
       font-weight: $medium;
       color: $Mid;
@@ -136,33 +137,7 @@
           outline: 2px solid $Darkest;
         }
       }
-      button{
-        display: flex;
-        flex-shrink: 0;
-        width: 170px;
-        height: 38px;
-        padding: 0px 19px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 50px;
-        border: none;
-        background: $Darkest;
-        color: $Lightest;
-        font-weight: $semi-bold;
-        font-size: $fontsizel;
-    
-        &:hover{
-            display: inline-flex;
-            border-radius: 50px;
-            background: $Light;
-            color: $Darkest;
-            
-            
-            transition: all 0.2s ease;
-            cursor: pointer;
-        }
-      }
+      
     }
   }
   
